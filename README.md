@@ -16,4 +16,4 @@ O objeto server possui uma instância da classe que implementa os métodos chama
 A classe implementadora deve ser herdeira de ```rpyc.Service```.  
 Os métodos de uma classe implementadora só estão visíveis aos clientes se seus nomes começam com ```exposed_```, portanto utilizamos ```protocol_config={'allow_public_attrs': True,}``` para indicar que todos os métodos são visíveis, mesmo sem ```exposed_```.  
 
-[**Link Demonstrativo**](https://youtu.be/bNRKtJU8DXQ)
+[**Vídeo Demonstrativo**](https://youtu.be/bNRKtJU8DXQ)
